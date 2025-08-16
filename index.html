@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="style.css" rel="stylesheet" />
+
+</head>
+<body>
+
+  
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+  <div class="cs-container">
+      <!--Nav Logo-->
+      <!--Logo is turned white in the css with a filter on dark mode-->
+      <a href="" class="cs-logo" aria-label="back to home">
+          <img src="./images/Bloom-logo-only(2)(1)(1).png" alt="logo" width="500px">
+      </a>
+      <!--Navigation List-->
+      <nav class="cs-nav" role="navigation">
+          <!--Mobile Nav Toggle-->
+          <button class="cs-toggle" aria-label="mobile menu toggle">
+              <div class="cs-box" aria-hidden="true">
+                  <span class="cs-line cs-line1" aria-hidden="true"></span>
+                  <span class="cs-line cs-line2" aria-hidden="true"></span>
+                  <span class="cs-line cs-line3" aria-hidden="true"></span>
+              </div>
+          </button>
+          <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+          <div class="cs-ul-wrapper">
+              <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                  <li class="cs-li">
+                      <a href="" class="cs-li-link cs-active">
+                          Home
+                      </a>
+                  </li>
+                 <!-- <li class="cs-li">
+                      <a href="" class="cs-li-link">
+                          Shop
+                      </a>
+                  </li>
+                  -->
+                  <li class="cs-li">
+                      <a href="" class="cs-li-link">
+                          About
+                      </a>
+                  </li>
+                  <li class="cs-li">
+              </ul>
+          </div>
+      </nav>
+      <div class="cs-contact-group">
+          <div class="cs-social">
+              <a href="" class="cs-social-link">
+                  <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/facebook-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+              </a>
+              <a href="" class="cs-social-link">
+                  <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/instagram1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+              </a>
+
+          </div>
+      </div>
+      <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+      <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+          <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+          <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+      </button> -->
+  </div>
+</header>
+                              
+
+
+  <!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-2410">
+  <div class="cs-container">
+      <div class="cs-content">
+          <span class="cs-topper">Coming Soon!</span>
+          <h1 class="cs-title">Community Driven Specialty Coffee.</h1>
+          <p class="cs-text">
+
+          </p>
+          <a href="" class="cs-button-solid">Learn More</a>
+      </div>
+      <!--Hero Image-->
+      <div class="cs-image-group">
+          <!-- IF you have a wide image that gets cut off on the right, go the the cs-picture img and set the left value to a negative number till its where you like it in frame-->
+          <picture class="cs-picture circle-crop">
+              <!--Mobile Image-->
+              <source media="(max-width: 600px)" src="/images/Basically-Pour-Over-lede(1).png">
+              <!--Tablet and above Image-->
+              <source media="(min-width: 601px)" src="/images/Basically-Pour-Over-lede(1).png">
+              <img decoding="async" fetchpriority="high" src="/images/Basically-Pour-Over-lede(1).png" alt="dog" width="635" height="836">
+          </picture>
+          <!--Circle Background-->
+            <!--Download the SVG from the CDN by copy ad pasting its link into your browser and saving it. Then the cs-circle fill property should override it and set it to the primary color of your site-->
+            <svg class="cs-circle" width="758" height="758" viewBox="0 0 758 758" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_n_1_114)">
+            <circle cx="379" cy="379" r="379" fill="#C87C23" fill-opacity="0.2"/>
+            </g>
+            <defs>
+            <filter id="filter0_n_1_114" x="0" y="0" width="758" height="758" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feTurbulence type="fractalNoise" baseFrequency="0.05000000074505806 0.05000000074505806" stitchTiles="stitch" numOctaves="3" result="noise" seed="949" />
+            <feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+            <feComponentTransfer in="alphaNoise" result="coloredNoise1">
+            <feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+            </feComponentTransfer>
+            <feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+            <feFlood flood-color="#FFFFFF" result="color1Flood" />
+            <feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+            <feMerge result="effect1_noise_1_114">
+            <feMergeNode in="shape" />
+            <feMergeNode in="color1" />
+            </feMerge>
+            </filter>
+            </defs>
+            </svg>
+
+
+      </div>
+  </div>
+  <!--White curve-->
+  <svg class="cs-wave" width="1920" height="167" viewBox="0 0 1920 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1920 167H0V0C111.116 45.3334 456.485 136 951 136C1445.52 136 1803.21 45.3334 1920 0V167Z" fill="white"/>
+      </svg>
+</section>
+
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-2135">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Main Image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" src="images/pexels-andrew-4264049.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" src="images/pexels-andrew-4264049.jpg">
+                <img loading="lazy" decoding="async" src="images/pexels-andrew-4264049.jpg" alt="wedding" width="397" height="304">
+            </picture>
+            <!--Small Image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" src="./images/pexels-olenkabohovyk-3749174.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" src="./images/pexels-olenkabohovyk-3749174.jpg">
+                <img loading="lazy" decoding="async" src="./images/pexels-olenkabohovyk-3749174.jpg" alt="wedding" width="397" height="460">
+            </picture>
+            <!--Green Graphic-->
+            <img class="cs-graphic" loading="lazy" decoding="async" src="./images/squiggle.svg" alt="graphic" width="630" height="715" aria-hidden="true" color="#228B22">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Our Philosophy</span>
+            <h2 class="cs-title"></h2>
+            <h3 class="cs-header">Great Coffee</h3>
+            <p class="cs-text">
+                We welcome and celebrate different perspectives to help our firm, our clients and our people adip iscing. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint temporibus nihil velit atque voluptatibus vero itaque repudiandae tenetur cupiditate perferendis deleniti necessitatibus dignissimos sequi, illo repellendus maiores aliquam quia a?
+            </p>
+            <h3 class="cs-header">Community</h3>
+            <p class="cs-text">
+                We welcome and celebrate different perspectives to help our firm, our clients and our people adip iscing.
+            </p>
+            <h3 class="cs-header">Education</h3>
+            <p class="cs-text">
+                We welcome and celebrate different perspectives to help our firm, our clients and our people adip iscing.
+            </p>
+            <h3 class="cs-header"></h3>
+            <p class="cs-text">
+                We welcome and celebrate different perspectives to help our firm, our clients and our people adip iscing.
+            </p>
+        </div>
+    </div>
+    <!--Floating Flower-->
+    
+</section>
+                                
+
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-2356">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Stay up to date</span>
+            <h2 class="cs-title">Join our newsletter to keep up with news, events, and new releases. </h2>
+        </div>
+        <form class="cs-form" name="Contact Form" method="post">
+            <input class="cs-input" type="email" id="cs-email-2356" name="email" placeholder="Email Address">
+            <button class="cs-submit" type="submit">
+                <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-right-white.svg" decoding="async" alt="icon" width="24" height="24">
+            </button>
+        </form>
+    </div>
+</section>
+                                
+                                         
+
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-266">
+  <div class="cs-container">
+      <!-- Logo Group -->
+      <div class="cs-logo-group">
+          <a aria-label="go back to home" class="cs-logo" href="">
+              <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="./images/Bloom-logo-only(2).png" alt="logo" width="240" height="32">
+          </a>
+          <p class="cs-text">
+              845 E 15th St.
+              New Albany, IN 47150
+          </p>
+      </div>
+      <!-- Links -->
+      <ul class="cs-nav">
+          <li class="cs-nav-li">
+              <span class="cs-header">Sitemap</span>
+          </li>
+          <li class="cs-nav-li">
+              <a class="cs-nav-link" href="">Home</a>
+          </li>
+          <li class="cs-nav-li">
+              <a class="cs-nav-link" href="">About</a>
+          </li>
+          <li class="cs-nav-li">
+              <a class="cs-nav-link" href="">Shop</a>
+          </li>
+          <li class="cs-nav-li">
+              <a class="cs-nav-link" href="">Contact</a>
+          </li>
+      </ul>
+      <!-- Contact Info -->
+      <ul class="cs-contact">
+          <li class="cs-nav-li">
+              <span class="cs-header">Contact</span>
+          </li>
+          <li class="cs-contact-li">
+              <a class="cs-contact-link" href="mailto:info@codestitch.com">brewedbybloom@gmail.com</a>
+          </li>
+          <!-- Social Media -->
+          <li class="cs-contact-li cs-social-group">
+              <div class="cs-social">
+                  <a class="cs-social-link" aria-label="visit google profile" href="">
+                      <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                  </a>
+                  <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                      <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                  </a>
+                  <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                      <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                  </a>
+              </div>
+          </li>
+      </ul>
+  </div>
+</footer>
+                              
+<script src="script.js"></script>                    
+</body>
+</html>
