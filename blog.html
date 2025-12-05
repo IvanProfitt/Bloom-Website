@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title></title>
   <link href="style.css" rel="stylesheet" />
+  <link href="blogStyle.css" rel="stylesheet" />
   <link rel="icon" type="image/png" href="/images/B favicon.png"/>
 
   <script type="text/javascript">
@@ -38,7 +39,7 @@
   <div class="cs-container">
       <!--Nav Logo-->
       <!--Logo is turned white in the css with a filter on dark mode-->
-      <a href="./index.html" class="cs-logo" aria-label="back to home">
+      <a href="index.html" class="cs-logo" aria-label="back to home">
           <img src="./images/Bloom-logo-only(2)(1)(1).png" alt="logo" width="500px">
       </a>
       <!--Navigation List-->
@@ -92,140 +93,50 @@
       </button> -->
   </div>
 </header>
-                              
 
 
-  <!-- ============================================ -->
-<!--                    Hero                      -->
-<!-- ============================================ -->
-
-<section id="hero-2410">
-  <div class="cs-container">
-      <div class="cs-content">
-          <span class="cs-topper">Now Open!</span>
-          <h1 class="cs-title">Community Driven Specialty Coffee.</h1>
-          <p class="cs-text">
-
-          </p>
-          <a href="https://order.dripos.com/Bloom" class="cs-button-solid">Order Online</a>
-      </div>
-      <!--Hero Image-->
-      <div class="cs-image-group">
-          <!-- IF you have a wide image that gets cut off on the right, go the the cs-picture img and set the left value to a negative number till its where you like it in frame-->
-          <picture class="cs-picture circle-crop">
-              <!--Mobile Image-->
-              <source media="(max-width: 600px)" src="./images/Basically-Pour-Over-lede(1).png">
-              <!--Tablet and above Image-->
-              <source media="(min-width: 601px)" src="./images/Basically-Pour-Over-lede(1).png">
-              <img decoding="async" fetchpriority="high" src="./images/Basically-Pour-Over-lede(1).png" alt="dog" width="635" height="836">
-          </picture>
-          <!--Circle Background-->
-            <!--Download the SVG from the CDN by copy ad pasting its link into your browser and saving it. Then the cs-circle fill property should override it and set it to the primary color of your site-->
-            <svg class="cs-circle" width="758" height="758" viewBox="0 0 758 758" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_n_1_114)">
-            <circle cx="379" cy="379" r="379" fill="#C87C23" fill-opacity="0.2"/>
-            </g>
-            <defs>
-            <filter id="filter0_n_1_114" x="0" y="0" width="758" height="758" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feTurbulence type="fractalNoise" baseFrequency="0.05000000074505806 0.05000000074505806" stitchTiles="stitch" numOctaves="3" result="noise" seed="949" />
-            <feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
-            <feComponentTransfer in="alphaNoise" result="coloredNoise1">
-            <feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
-            </feComponentTransfer>
-            <feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
-            <feFlood flood-color="#FFFFFF" result="color1Flood" />
-            <feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
-            <feMerge result="effect1_noise_1_114">
-            <feMergeNode in="shape" />
-            <feMergeNode in="color1" />
-            </feMerge>
-            </filter>
-            </defs>
-            </svg>
-
-
-      </div>
-  </div>
-  <!--White curve-->
-  <svg class="cs-wave" width="1920" height="167" viewBox="0 0 1920 167" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1920 167H0V0C111.116 45.3334 456.485 136 951 136C1445.52 136 1803.21 45.3334 1920 0V167Z" fill="white"/>
-      </svg>
-</section>
 
 
 <!-- ============================================ -->
-<!--                Side By Side                  -->
+<!--                    Blog                      -->
 <!-- ============================================ -->
 
-<section id="sbs-2135">
-    <div class="cs-container">
-        <div class="cs-image-group">
-            <!--Main Image-->
-            <picture class="cs-picture cs-picture1">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" src="images/6D33DFA8-1F1B-4E3A-B659-72AAD24536C9(2).png">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" src="images/6D33DFA8-1F1B-4E3A-B659-72AAD24536C9(2).png">
-                <img loading="lazy" decoding="async" src="images/6D33DFA8-1F1B-4E3A-B659-72AAD24536C9(2).png" alt="wedding" width="397" height="304">
-            </picture>
-            <!--Small Image-->
-            <picture class="cs-picture cs-picture2">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" src="/images/Handoff.jpg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" src="/images/Handoff.jpg">
-                <img loading="lazy" decoding="async" src="/images/Handoff.jpg" alt="" width="397" height="460">
-            </picture>
-            <!--Green Graphic-->
-            <img class="cs-graphic" loading="lazy" decoding="async" src="./images/squiggle.svg" alt="graphic" width="630" height="715" aria-hidden="true" color="#228B22">
-        </div>
-        <div class="cs-content">
-            <span class="cs-topper">Our Philosophy</span>
-            <h2 class="cs-title"></h2>
-            <h3 class="cs-header">Great Coffee</h3>
-            <p class="cs-text">
-                Our drinks are the core of what we do - from our elevated classics to our original creations, you can expect distinct flavors and a unique journey in every cup. 
-            </p>
-            <h3 class="cs-header">Community</h3>
-            <p class="cs-text">
-                We support the people that supports us. We aim to be a welcoming environment for everyone and allow for a space to be seen and heard. As lifelong New Albanians, we love the city and want to aid in its success.
-                
-            <h3 class="cs-header">Experience</h3>
-            <p class="cs-text">
-                Coffee tells a story. From a terroir-focused pourover menu, to an ever-changing special drink menu, we aim to provide every customer with the best possible experience from the moment you enter.
-            </p>
-        </div>
-    </div>
-    <!--Floating Flower-->
-    
-</section>
-
-
-                                
-
-
-<!-- ============================================ -->
-<!--                     CTA                      -->
-<!-- ============================================ -->
-
-<section id="cta-2356">
+<section id="blog-1289">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Stay up to date</span>
-            <h2 class="cs-title">Join our newsletter to keep up with news, events, and new releases. </h2>
-        </div>
-        <form class="cs-form" name="Contact Form" action="https://formspree.io/f/mpwlewry" method="post">
-            <input class="cs-input" type="email" id="cs-email-2356" name="email" placeholder="Email Address">
-            <button class="cs-submit" type="submit">
-                <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/arrow-right-white.svg" decoding="async" alt="icon" width="24" height="24">
-            </button>
-        </form>
+            <div class="cs-flex-group">
+                <span class="cs-topper">Blog</span>
+                <h2 class="cs-title">The latest from Bloom</h2>
+            </div>
+            <p class="cs-text">
+                Stay up-to-date with the latest news, updates, and more from us. 
+            </p>
+        </div>      
+        <ul class="cs-card-group">
+            <li class="cs-item cs-highlight">
+                <a href="/christmasPlaylist.html" class="cs-link">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="./images/Yellow Woman Tumblr Aesthetic PartyDancePop Playlist Cover.png">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="./images/Yellow Woman Tumblr Aesthetic PartyDancePop Playlist Cover.png">
+                        <img loading="lazy" decoding="async" src="./images/Yellow Woman Tumblr Aesthetic PartyDancePop Playlist Cover.png" alt="building" width="270" height="200">
+                    </picture>
+                    <div class="cs-flex">
+                        <span class="cs-date">December 4, 2025</span>
+                        <h3 class="cs-h3">A Christmas playlist from Bloom!</h3>
+                        <p class="cs-item-text">
+                             Insert text here
+                        </p>
+                    </div>
+                </a>
+            </li>
+            
+        </ul>
     </div>
 </section>
                                 
-                                         
+
 
 
 <!-- ============================================ -->
@@ -250,7 +161,7 @@
               <span class="cs-header">Sitemap</span>
           </li>
           <li class="cs-nav-li">
-              <a class="cs-nav-link" href="">Home</a>
+              <a class="cs-nav-link" href="./index.html">Home</a>
           </li>
           <li class="cs-nav-li">
               <a class="cs-nav-link" href="./about.html">About</a>
@@ -290,6 +201,4 @@
   </div>
 </footer>
                               
-<script src="script.js"></script>                    
-</body>
-</html>
+<script src="script.js"></script> 
